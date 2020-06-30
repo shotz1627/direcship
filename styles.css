@@ -1,0 +1,16 @@
+div {
+  background-color: #fa7d09;
+  height: 40px;
+}
+h1, h2 {
+  color: #0000ff
+
+}
+body{
+  margin: 0;
+  margin-top: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
