@@ -1,16 +1,49 @@
-div {
-  background-color: #fa7d09;
-  height: 40px;
+body {
+  background-color: #ffffff;
 }
-h1, h2 {
-  color: #0000ff
+.top {
+  height: 200px;
+  width: 200px;
+  margin-left: 140px;
+  background-color: yellow;
+}
+.middle {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  margin-left: 440px;
+}
+.bottom {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  margin-left: 740px;
+}
+footer {
+  margin-left:  0;
+  margin-right: 0;
+}
+form {
+  margin-left: 600px;
+}
+
+h2 {
+  margin-left: 600px;
+}
+img {
+  margin-left: 100px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+.slogan {
+  display: inline-block;
+}
+hr {
+  height: 15px;
+  width: 940;
+  background-color: yellow;
 
 }
-body{
-  margin: 0;
-  margin-top: 0;
+input {
+    outline: 10px solid #fca600;
 }
-
-.wrapper {
-    min-height: 100%;
-    display: grid;
