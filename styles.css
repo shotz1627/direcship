@@ -3,22 +3,17 @@ body {
 }
 .top {
   height: 200px;
-  width: 200px;
+  width: 940px;
   margin-left: 140px;
-  background-color: yellow;
+  background-color: white;
 }
 .middle {
-  background-color: red;
-  height: 200px;
-  width: 200px;
-  margin-left: 440px;
+  background-color: white;
+  margin-left: 140px;
+  display: inline;
 }
-.bottom {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-  margin-left: 740px;
-}
+
+
 footer {
   margin-left:  0;
   margin-right: 0;
@@ -35,15 +30,21 @@ img {
   display: inline-block;
   margin-bottom: 0;
 }
-.slogan {
-  display: inline-block;
-}
 hr {
-  height: 15px;
+  height: 1px;
   width: 940;
-  background-color: yellow;
+  background-color: black;
 
 }
 input {
-    outline: 10px solid #fca600;
+    outline: 2px solid #fca600;
+}
+
+p {
+  margin-left: 240px;
+}
+
+.slogan {
+  margin-left: 30px;
+  margin-top: 10px;
 }
